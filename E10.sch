@@ -727,7 +727,6 @@ Wire Wire Line
 	8950 2400 9100 2400
 Text GLabel 8800 2150 1    50   Input ~ 0
 DAC
-NoConn ~ 9450 3450
 $Comp
 L Device:R R18
 U 1 1 606D9C59
@@ -1209,4 +1208,17 @@ Text Notes 1150 900  0    79   ~ 0
 CPU
 Text Notes 7850 900  0    79   ~ 0
 LED connector
+$Comp
+L power:GND #PWR?
+U 1 1 654BEB98
+P 9200 3450
+F 0 "#PWR?" H 9200 3200 50  0001 C CNN
+F 1 "GND" H 9205 3277 50  0000 C CNN
+F 2 "" H 9200 3450 50  0001 C CNN
+F 3 "" H 9200 3450 50  0001 C CNN
+	1    9200 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9450 3450 9200 3450
 $EndSCHEMATC
