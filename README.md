@@ -13,11 +13,14 @@ The decoder has the following features,
   - gamma correction (optional)
 - firmware update via V24 debug interface
 
-[more](https://rtb4dcc.de/hardware/module/#E10)
+[more](https://rtb4dcc.de/hardware/modules/e10/)
 
 # PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2023/10/E10_1.png" width=120>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/01/E10_1.png" width=120>
+
 - 2-layer PCB, FR4, 1.6mm
 - CPU: AVR64DA32
+- BUS: WS28xx
+<br>
 
 [Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf)
