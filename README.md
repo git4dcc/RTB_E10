@@ -16,7 +16,7 @@ The decoder has the following features,
 [more](https://rtb4dcc.de/hardware/module/#E10)
 
 # PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2023/10/E10_1.png" width=120>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/01/E10_1.png" width=120>
 - 2-layer PCB, FR4, 1.6mm
 - CPU: AVR64DA32
 
