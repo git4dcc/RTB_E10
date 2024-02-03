@@ -9,7 +9,9 @@ The decoder has the following features,
   - WS2811 compatible timing
 - **LED ports**
   - 1..18 channel output (configurable via V24 terminal)
-  - 128 step PWM (60Hz)
+  - Software selectable common LED voltage (0 .. 5V)
+  - Push/Pull output and can drive common anode or cathode
+  - 128 step PWM (300Hz)
   - gamma correction (optional)
 - firmware update via V24 debug interface
 
@@ -21,7 +23,7 @@ The decoder has the following features,
 - 2-layer PCB, FR4, 1.6mm
 - CPU: AVR64DA32
 - BUS: WS28xx
-- LED: Push/Pull 5V (3.3V optional)
+- LED: Push/Pull
 <br>
 
 [Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf)
