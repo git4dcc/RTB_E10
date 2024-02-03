@@ -2,7 +2,7 @@
 [![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_Project-FF6699)](https://www.rtb4dcc.de)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
-This E10 module implements a 18 channel WS2811 emulator with compatible bus timing. The number of LEDs can be configured (1-18) via the RS232 interface. The C10 may be cascaded with regular WS28xx chips.
+This E10 module implements a 18 channel WS2811 emulator with compatible bus timing. The number of LEDs can be configured (1-18) via the RS232 interface. The E10 may be cascaded with regular WS28xx chips.
 
 The decoder has the following features,
 - **Protocol**
