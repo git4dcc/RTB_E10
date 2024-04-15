@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RTB E10 module"
-Date "2023-10-31"
-Rev "1"
+Date "2024-04-12"
+Rev "2"
 Comp "Frank Schumacher"
-Comment1 "[1-18]-channel WS2811 chip emulator"
+Comment1 "[1-16]-channel WS2811 chip emulator"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -850,46 +850,12 @@ L Connector_Generic:Conn_01x02 J8
 U 1 1 65901458
 P 9200 3450
 F 0 "J8" H 9172 3332 50  0001 R CNN
-F 1 "LED 16-17" H 9800 3400 50  0000 R CNN
+F 1 "LED Common" H 9850 3400 50  0000 R CNN
 F 2 "RTB_parts:1725656" H 9200 3450 50  0001 C CNN
 F 3 "~" H 9200 3450 50  0001 C CNN
 	1    9200 3450
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:R R22
-U 1 1 6590F5ED
-P 2750 2150
-F 0 "R22" V 2543 2150 50  0001 C CNN
-F 1 "220" V 2750 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 2150 50  0001 C CNN
-F 3 "~" H 2750 2150 50  0001 C CNN
-	1    2750 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 2550 4900 2550
-$Comp
-L Device:R R21
-U 1 1 65914E48
-P 5050 2550
-F 0 "R21" V 4843 2550 50  0001 C CNN
-F 1 "220" V 5050 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 2550 50  0001 C CNN
-F 3 "~" H 5050 2550 50  0001 C CNN
-	1    5050 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3300 2150 2900 2150
-Text GLabel 9000 3450 0    50   Input ~ 0
-OUT17
-Text GLabel 9000 3350 0    50   Input ~ 0
-OUT16
-Text GLabel 5200 2550 2    50   Input ~ 0
-OUT16
-Text GLabel 2600 2150 0    50   Input ~ 0
-OUT17
 $Comp
 L Amplifier_Operational:MCP6001-OT U3
 U 1 1 65969A29
@@ -1050,4 +1016,10 @@ Text Notes 9550 4550 0    50   ~ 0
 n.f.
 Text Notes 1400 6150 0    50   ~ 0
 n.f.
+Text GLabel 9000 3450 0    50   Input ~ 0
+vCommon
+Text GLabel 9000 3350 0    50   Input ~ 0
+vCommon
+NoConn ~ 4500 2550
+NoConn ~ 3300 2150
 $EndSCHEMATC
