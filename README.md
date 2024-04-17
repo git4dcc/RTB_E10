@@ -16,14 +16,14 @@ The decoder has the following features,
   - 0..16 channel output (auto detecting)
   - Software selectable common LED voltage (0 .. 5V)
   - Push/Pull output and can drive common anode or cathode
-  - 256 step PWM (300Hz)
+  - 256 step PWM (240Hz)
   - gamma correction (optional)
 - firmware update via V24 debug interface
 
 [more](https://rtb4dcc.de/hardware/modules/e10/)
 
 # PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/01/E10_1-1.png" width=500>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png" width=500>
 
 - 2-layer PCB, FR4, 1.6mm
 - CPU: AVR64DA32
