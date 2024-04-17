@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-This E10 module implements a 16 channel WS2811 emulator with compatible bus timing. The E10 may be cascaded with regular WS28xx chips. The number of LEDs can be auto configured (0-16). Optionally the common LED voltage can be recieved via the bus as well and may be adjusted dynamically.
+This E10 module implements a 16 channel WS2811 emulator with compatible bus timing. The E10 may be cascaded with regular WS28xx chips. The number of LEDs is auto configured (0-16). Optionally the common LED voltage can be recieved via the bus as well and may be adjusted dynamically.
 
 ```
 Byte order:     {voltage} {led_0} ... {led_n}      //'n' being the number of configured LEDs
