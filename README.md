@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-This E10 module implements a 16 channel WS2811 emulator with compatible bus timing. The E10 may be cascaded with regular WS28xx chips. The number of LEDs is auto configured (0-16). Optionally the common LED voltage can be recieved via the bus as well and may be adjusted dynamically.
+This E10 module implements a 16 channel WS2811 emulator with compatible bus timing. The E10 may be cascaded with regular WS28xx chips. The number of LEDs is auto configured (0-16). Optionally the common LED voltage can be recieved via the bus as well and may be adjusted dynamically. (see also [E13](https://github.com/git4dcc/RTB_E13), [E15](https://github.com/git4dcc/RTB_E15))
 
 ```
 Byte order:     {voltage} {led_0} ... {led_n}      //'n' being the number of configured LEDs
@@ -23,7 +23,10 @@ The decoder has the following features,
 
 [more](https://rtb4dcc.de/hardware/modules/e10/)
 
-# PCB
+# Hardware
+My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflow soldering is my recommendation, but with some experience handsoldering is also possible.
+
+## PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png" width=500>
 
 - 2-layer PCB, FR4, 1.6mm
@@ -34,7 +37,7 @@ The decoder has the following features,
 
 [Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf)
 
-# Firmware
+## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
 Example: **E10F0001**.hex
@@ -44,3 +47,8 @@ Example: **E10F0001**.hex
 | **pcb** | Name of matching hardware (**E10**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
+
+# Pictures
+<img src=https://rtb4dcc.de/wp-content/uploads/2024/02/E10_3.jpg width=260>
+
+This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
