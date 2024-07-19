@@ -8,7 +8,7 @@ This E10 module implements a 16 channel WS2811 emulator with compatible bus timi
 - [User Guide - DE](https://rtb4dcc.de/ws2811_guide_de/)<br>
 - User Guide - EN
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png" width=800>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png">
 
 The decoder has the following features,
 - **Protocol**
@@ -45,6 +45,15 @@ Example: **E10F0001**.hex
 | **pcb** | Name of matching hardware (**E10**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
+
+## UPDI
+The fuse settings as well as the P-code (E10Pxxxx.hex) has to be installed by using UPDI.<br>
+
+<img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_C02_8.jpg>
+
+| Fuses Setting | Software Install |
+| --- | --- |
+|<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Fuses.png" width=500>|<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Mem.png" width=500>|
 
 # Software
 The LED common voltage must be sent as the first byte (virtual LED) over the bus followed by the intensity values for the individual LEDs.
