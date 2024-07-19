@@ -31,9 +31,8 @@ My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflo
 - CPU: AVR64DA32
 - BUS: WS28xx
 - LED: Push/Pull
-<br>
 
-[Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf)
+[Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf) | [Gerber](gerber)
 
 ## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
@@ -51,7 +50,7 @@ The fuse settings as well as the P-code (E10Pxxxx.hex) has to be installed by us
 
 <img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_C02_8.jpg>
 
-| Fuses Setting | Software Install |
+| Fuse Setting | P-Code Install |
 | --- | --- |
 |<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Fuses.png" width=500>|<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Mem.png" width=500>|
 
