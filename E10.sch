@@ -11,7 +11,7 @@ Comp "Frank Schumacher"
 Comment1 "[1-16]-channel WS2811 chip emulator"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Licensed under the Apache License, Version 2"
 $EndDescr
 $Comp
 L MCU_Microchip_ATmega:ATmega4808-M U1
