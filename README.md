@@ -48,7 +48,7 @@ Example: **E10F0001**.hex
 ## UPDI
 The fuse settings as well as the P-code (E10Pxxxx.hex) has to be installed by using UPDI.<br>
 
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_C02_8.jpg>
+<img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_4.jpg>
 
 | Fuse Setting | P-Code Install |
 | --- | --- |
