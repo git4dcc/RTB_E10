@@ -5,10 +5,10 @@
 
 This E10 module implements a 16 channel WS2811 emulator with compatible bus timing. The E10 may be cascaded with regular WS28xx chips. The number of LEDs is auto configured (0-16). Optionally the common LED voltage can be recieved via the bus as well and may be adjusted dynamically. (see also [E13](https://github.com/git4dcc/RTB_E13), [E15](https://github.com/git4dcc/RTB_E15))
 
-```
-Byte order:     {voltage} {led_0} ... {led_n}      //'n' being the number of configured LEDs
-Led Voltage:    5V * {voltage} / 255
-```
+- [User Guide - DE](https://rtb4dcc.de/ws2811_guide_de/)<br>
+- User Guide - EN
+
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png" width=800>
 
 The decoder has the following features,
 - **Protocol**
@@ -21,13 +21,11 @@ The decoder has the following features,
   - gamma correction (optional)
 - firmware update via V24 debug interface
 
-[more](https://rtb4dcc.de/hardware/modules/e10/)
 
 # Hardware
 My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflow soldering is my recommendation, but with some experience handsoldering is also possible.
 
 ## PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png" width=500>
 
 - 2-layer PCB, FR4, 1.6mm
 - CPU: AVR64DA32
@@ -47,6 +45,14 @@ Example: **E10F0001**.hex
 | **pcb** | Name of matching hardware (**E10**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
+
+# Software
+The LED common voltage must be sent as the first byte (virtual LED) over the bus followed by the intensity values for the individual LEDs.
+
+```
+Byte order:     {voltage} {led_0} ... {led_n}      //'n' being the number of configured LEDs
+Led Voltage:    5V * {voltage} / 255
+```
 
 # Pictures
 <img src=https://rtb4dcc.de/wp-content/uploads/2024/02/E10_3.jpg width=260>
