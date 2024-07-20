@@ -32,7 +32,7 @@ My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflo
 - LED: Push/Pull
 
 ## Kicad
-<b>Dependency:</b> Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys)
+:yellow_square: Dependency: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys)
 
 [Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf) | [Gerber](gerber)
 
