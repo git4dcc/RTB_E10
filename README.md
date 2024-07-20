@@ -21,7 +21,6 @@ The decoder has the following features,
   - gamma correction (optional)
 - firmware update via V24 debug interface
 
-
 # Hardware
 My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflow soldering is my recommendation, but with some experience handsoldering is also possible.
 
@@ -32,7 +31,11 @@ My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflo
 - BUS: WS28xx
 - LED: Push/Pull
 
+## Kicad
+<b>Dependency:</b> Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys)
+
 [Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf) | [Gerber](gerber)
+
 
 ## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
