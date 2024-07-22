@@ -51,7 +51,6 @@ The hardware allows either push or pull operation. Currently only the pull opera
 ## Kicad
 [Schematic](doc/E10_schematic.pdf) | [Layout](doc/E10_layout.pdf) | [Gerber](gerber)
 
-
 <details>
 <summary>Dependency</summary>
 
@@ -70,8 +69,13 @@ Example: **E10F0001**.hex
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
 
+[Firmware files](firmware)
+
 ## UPDI
 The fuse settings as well as the P-code (E10Pxxxx.hex) has to be installed by using UPDI.<br>
+
+<details>
+<summary>Details</summary>
 
 <img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_4.jpg>
 
@@ -79,8 +83,13 @@ The fuse settings as well as the P-code (E10Pxxxx.hex) has to be installed by us
 | --- | --- |
 |<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Fuses.png" width=500>|<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Mem.png" width=500>|
 
+</details>
+
 ## Debug Interface
 Subsequent code updates can be done via the built-in serial debug interface.<br>
+
+<details>
+<summary>Details</summary>
 
 - connect the serial cable (1Mb, 8N1, RTS/CTS)
 - press 'break' within the VT100 terminal to bump the module to console prompt
@@ -88,6 +97,7 @@ Subsequent code updates can be done via the built-in serial debug interface.<br>
 - for more details, refer to the 'User Guide'
 
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Rom.png" width=500>
+</details>
 
 # Software
 The LED common voltage must be sent as the first byte (virtual LED) over the bus followed by the intensity values for the individual LEDs.
