@@ -26,6 +26,8 @@ The decoder has the following features,
 # Hardware
 My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflow soldering is my recommendation, but with some experience handsoldering is also possible.
 
+The hardware allows either push or pull operation. Currently only the pull operation is implemented in the firmware. Should a usecase for push-operation arise, the firmware could be adapted.
+
 <img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_4.png>
 
 ## PCB
