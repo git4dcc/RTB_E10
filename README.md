@@ -54,6 +54,7 @@ The hardware allows either push or pull operation. Currently only the pull opera
 <details>
 <summary>Dependency</summary>
 <br>
+
 :yellow_circle: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys) in the same directory tree.
 
 </details>
