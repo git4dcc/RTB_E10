@@ -8,7 +8,6 @@ This E10 module implements a 16 channel WS2811 emulator with compatible bus timi
 <details>
 <summary>See also</summary>
 
-- [RTB_E10](https://github.com/git4dcc/RTB_E10)
 - [RTB_E13](https://github.com/git4dcc/RTB_E13)
 - [RTB_E15](https://github.com/git4dcc/RTB_E15)
 
