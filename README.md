@@ -96,7 +96,7 @@ Subsequent code updates can be done via the built-in serial debug interface.<br>
 - upload the firmware file (E10Fxxxx.hex)
 - for more details, refer to the 'User Guide'
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Rom.png" width=500>
+  <img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Rom.png">
 </details>
 
 # Software
