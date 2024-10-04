@@ -21,7 +21,7 @@ This E10 module implements a 16 channel WS2811 emulator with compatible bus timi
 
 </details>
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/04/E10_1.png">
+<img src=supplemental/images/E10_main.jpg>
 
 The decoder has the following features,
 - **Protocol**
@@ -39,7 +39,7 @@ My current PCB layout uses SMD footprints with 0.5mm pitch and 0603 parts. Reflo
 
 The hardware allows either push or pull operation. Currently only the pull operation is implemented in the firmware. Should a usecase for push-operation arise, the firmware could be adapted.
 
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_4.png>
+<img src=supplemental/images/E10_top_connect.jpg>
 
 ## PCB
 
@@ -109,6 +109,6 @@ Led Voltage:    5V * {voltage} / 255
 ```
 
 # Images
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/02/E10_3.jpg width=260> <img src=https://rtb4dcc.de/wp-content/uploads/2024/01/un_E10_example1.png width=260>
+<img src=supplemental/images/E10_samples.jpg width=260> <img src=supplemental/images/E10_usecase.jpg width=265>
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
