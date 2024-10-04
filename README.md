@@ -78,11 +78,11 @@ The fuse settings as well as the P-code (E10Pxxxx.hex) has to be installed by us
 <details>
 <summary>Details</summary>
 
-<img src=https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_4.jpg>
+<img src=supplemental/images/E10_updi.jpg>
 
 | Fuse Setting | P-Code Install |
 | --- | --- |
-|<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Fuses.png" width=500>|<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Mem.png" width=500>|
+|<img src=supplemental/images/E10_updi_fuses.jpg width=500>|<img src=supplemental/images/E10_updi_memory.jpg width=500>|
 
 </details>
 
@@ -97,7 +97,7 @@ Subsequent code updates can be done via the built-in serial debug interface.<br>
 - upload the firmware file (E10Fxxxx.hex)
 - for more details, refer to the 'User Guide'
 
-  <img src="https://rtb4dcc.de/wp-content/uploads/2024/07/un_E10_Rom.png">
+  <img src=supplemental/images/E10_debugIF.jpg>
 </details>
 
 # Software
